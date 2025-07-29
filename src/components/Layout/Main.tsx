@@ -7,7 +7,6 @@ import {
   MailIcon,
   PenToolIcon,
   RocketIcon,
-  ShirtIcon,
   ShoppingCartIcon,
 } from "lucide-react";
 import { Separator } from "../ui/separator";
@@ -91,7 +90,7 @@ export const Main = () => {
       icone: RocketIcon, // pessoas que precisam de identidade visual para seus projetos
     },
     {
-      titulo: "Agências de Publicidade",
+      titulo: "Agências de Design digital",
       icone: BuildingIcon, // empresas que contratam designers para demandas visuais
     },
     {
@@ -99,11 +98,11 @@ export const Main = () => {
       icone: CameraIcon, // criadores que precisam de identidade para redes sociais
     },
     {
-      titulo: "Lojas Virtuais e E-commerce",
+      titulo: "Atendemos Lojas Virtuais e E-commerce",
       icone: ShoppingCartIcon, // e-commerces que demandam banners, logos e UI
     },
     {
-      titulo: "Startups e Projetos Digitais",
+      titulo: "Startups de design",
       icone: LightbulbIcon, // inovação e design de interface
     },
     {
@@ -146,7 +145,7 @@ export const Main = () => {
         <Separator />
         <DynamicButtons buttons={buttons} />
         <Separator />
-
+        <div>Somos</div>
         <div className="w-full grid md:grid-cols-2 gap-x-2 gap-y-1 text-sm ml-4 xs:grid-cols-1">
           {publicos.map((item, index) => (
             <Alert
